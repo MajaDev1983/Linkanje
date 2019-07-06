@@ -20,7 +20,7 @@ int main()
 	int* newNumber = new int;
 	delete newNumber;
 
-	Entity* mallocEntity = (Entyity*)malloc(sizeof(Entity));
+	Entity* mallocEntity = (Entity*)malloc(sizeof(Entity));
 	free(mallocEntity);
 
 	Entity* newEntity = new Entity;
