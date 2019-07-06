@@ -28,4 +28,5 @@ int main()
 
 	//Malloc ne poziva konstruktor klase, free ne poziva destruktor klase 
 	//new poziva konstruktora i delete destruktora
+
 }
